@@ -1,0 +1,19 @@
+{
+  "name": "rest_demo",
+  "version": "1.0.0",
+  "description": "Project Rest Demo",
+   "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "API tests eu12.salesforce.com": "newman run tests/REST_DEMO.postman_environment.json -e REST_DEMO.postman_environment.json"
+  },
+  "keywords": [
+    "Rest",
+    "Demo"
+  ],
+  "author": "Anton Derevyanchenko",
+  "dependencies": {
+    "newman": "^3.9.3"
+  }
+}
